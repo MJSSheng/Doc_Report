@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>首页</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+	<![endif]-->
+    <link href="css/minimal/_all.css" rel="stylesheet">
+    <link href="css/minimal/blue.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  	<div class="top inline-block-father">
+      <div class="container">
+        <div class="logo inline-block"><img src="images/logo.jpg" /></div>
+        <div class="menu inline-block"></div>
+        <div class="login inline-block">Wlocome，Lexus <a href="#" class="inline-block">退出</a> <a href="#" class="inline-block">修改密码</a></div>
+      </div>
+    </div>
+    <div class="container requir">
+      <form action="#" method="get">
+        <table class="table table-bordered">
+          <tr><th>Region</th>
+            <td colspan="2">
+              <label><input type="checkbox" name="region" value="West" placeholder="West" /> <font>West</font></label>
+              <label><input type="checkbox" name="region" value="East" placeholder="East" /> <font>East</font></label>
+              <label><input type="checkbox" name="region" value="South" placeholder="South" /> <font>South</font></label>
+              <label><input type="checkbox" name="region" value="North" placeholder="North" /> <font>North</font></label>
+              <label><input type="checkbox" name="region" value="Central" placeholder="Central" /> <font>Central</font></label>
+            </td>
+            <td rowspan="3">
+              <div id="region">
+              <ul>
+              </ul>
+              </div>
+              <div id="dealer">
+              <ul>
+              </ul>
+              </div>
+              <div id="year" class="inline-block">
+              <ul>
+              </ul>
+              </div>
+              <div id="month" class="inline-block">
+              <ul>
+              </ul>
+              </div>
+              <div class="text-center"><a href="检查标准.html" class="btn btn-default" role="button">清&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;空</a>
+              <button type="submit" class="btn btn-default">搜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;索</button>
+              </div>
+              
+            </td></tr>
+          <tr><th>Dealer</th>
+            <td colspan="2">
+            <div class="dealer">
+              <ul>
+                <li><label><input type="checkbox" name="dealer" value="1" placeholder="【北京经销商】博瑞翔腾雷克萨斯经销商" /> <span>【北京经销商】博瑞翔腾雷克萨斯经销商1</span></label></li>
+                <li><label><input type="checkbox" name="dealer" value="2" placeholder="【北京经销商】博瑞翔腾雷克萨斯经销商2" /> <span>【北京经销商】博瑞翔腾雷克萨斯经销商2</span></label></li>
+                <li><label><input type="checkbox" name="dealer" value="3" placeholder="【北京经销商】博瑞翔腾雷克萨斯经销商3" /> <span>【北京经销商】博瑞翔腾雷克萨斯经销商3</span></label></li>
+                <li><label><input type="checkbox" name="dealer" value="4" placeholder="【北京经销商】博瑞翔腾雷克萨斯经销商4" /> <span>【北京经销商】博瑞翔腾雷克萨斯经销商4</span></label></li>
+                <li><label><input type="checkbox" name="dealer" value="5" placeholder="【北京经销商】博瑞翔腾雷克萨腾雷克萨斯斯经销商" /> <span>【北京经销商】博瑞翔腾雷克腾雷克萨斯萨斯经销商</span></label></li>
+                <li><label><input type="checkbox" name="dealer" value="6" placeholder="【北京经销商】博瑞翔腾雷克萨斯经销商6" /> <span>【北京经销商】博瑞翔腾雷克萨斯经销商6</span></label></li>
+                <li><label><input type="checkbox" name="dealer" value="7" placeholder="【北京经销商】博瑞翔腾雷克萨斯经销商7" /> <span>【北京经销商】博瑞翔腾雷克萨斯经销商7</span></label></li>
+                <li><label><input type="checkbox" name="dealer" value="8" placeholder="【北京经销商】博瑞翔腾雷克萨斯经销商8" /> <span>【北京经销商】博瑞翔腾雷克萨斯经销商8</span></label></li>
+                <li><label><input type="checkbox" name="dealer" value="9" placeholder="【北京经销商】博瑞翔腾腾雷克萨斯雷克萨斯经销商9" /> <span>【北京经销商】博瑞翔腾腾雷克萨斯雷克萨斯经销商9</span></label></li>
+              </ul>
+            </div>
+            </td>
+            </tr>
+          <tr><th>Wave</th>
+            <td width="150"><label><input type="radio" name="year" value="2016" placeholder="2016年" checked /> <span>2016年</span></label><br />
+            <label><input type="radio" name="year" value="2015" placeholder="2015年" /> <span>2015年</span></label><br />
+            <label><input type="radio" name="year" value="2014" placeholder="2014年" /> <span>2014年</span></label></td>
+            <td width="450">
+            <label><input type="checkbox" name="month" value="1" placeholder="1月" /> <span>1月</span></label>
+            <label><input type="checkbox" name="month" value="2" placeholder="2月" /> <span>2月</span></label>
+            <label><input type="checkbox" name="month" value="3" placeholder="3月" /> <span>3月</span></label>
+            <label><input type="checkbox" name="month" value="4" placeholder="4月" /> <span>4月</span></label>
+            <label><input type="checkbox" name="month" value="5" placeholder="5月" /> <span>5月</span></label>
+            <label><input type="checkbox" name="month" value="6" placeholder="6月" /> <span>6月</span></label><br />
+            <label><input type="checkbox" name="month" value="7" placeholder="7月" /> <span>7月</span></label>
+            <label><input type="checkbox" name="month" value="8" placeholder="8月" /> <span>8月</span></label>
+            <label><input type="checkbox" name="month" value="9" placeholder="9月" /> <span>9月</span></label>
+            <label><input type="checkbox" name="month" value="10" placeholder="10月" /> <span>10月</span></label>
+            <label><input type="checkbox" name="month" value="11" placeholder="11月" /> <span>11月</span></label>
+            <label><input type="checkbox" name="month" value="12" placeholder="12月" /> <span>12月</span></label>
+           
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <div class="container mt20">
+      	<div class="navbar-left sechname">
+          <form class="form-inline">
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" placeholder="客户姓名">
+            </div>
+            <button type="submit" class="btn btn-default">搜索</button>
+          </form>
+        </div>
+        <div class="navbar-right export">
+          <a href="#" class="btn btn-default" role="button">导出数据</a>
+        </div>
+    </div>
+    <div class="container list">
+      <div class="table-responsive">
+      <table class="table table-bordered">
+        <tr><th>序号</th><th>姓名</th><th>性别</th><th>身份证号</th><th>电子邮箱</th><th>练习电话</th><th>岗位</th><th>入职时间</th><th>上岗时间</th><th>新员工来源</th><th>是否在职</th><th>离职时间</th><th>操作</th></tr>
+        <tr><td>1</td>
+          <td>李翠翠</td>
+          <td class="text-center">女</td>
+          <td>370911198410105648</td>
+          <td>xindehui0538@126.com</td>
+          <td>13562822733</td>
+          <td>销售其他</td>
+          <td>2013-11-03</td>
+          <td>2013-12-03</td>
+          <td>来自大众进口汽车网络外部</td>
+          <td class="text-center">否</td>
+          <td>2014-01-31</td>
+          <td><a href="#">查看</a> | <a href="#">编辑</a> | <a href="javascript:;">删除</a></td>
+        </tr>
+        <tr><td>2</td>
+          <td>李翠翠</td>
+          <td class="text-center">女</td>
+          <td>370911198410105648</td>
+          <td>xindehui0538@126.com</td>
+          <td>13562822733</td>
+          <td>销售其他</td>
+          <td>2013-11-03</td>
+          <td>2013-12-03</td>
+          <td>来自大众进口汽车网络外部</td>
+          <td class="text-center">否</td>
+          <td>2014-01-31</td>
+          <td><a href="#">查看</a> | <a href="#">编辑</a> | <a href="javascript:;">删除</a></td>
+        </tr>
+        <tr><td>3</td>
+          <td>李翠翠</td>
+          <td class="text-center">女</td>
+          <td>370911198410105648</td>
+          <td>xindehui0538@126.com</td>
+          <td>13562822733</td>
+          <td>销售其他</td>
+          <td>2013-11-03</td>
+          <td>2013-12-03</td>
+          <td>来自大众进口汽车网络外部</td>
+          <td class="text-center">否</td>
+          <td>2014-01-31</td>
+          <td><a href="#">查看</a> | <a href="#">编辑</a> | <a href="javascript:;">删除</a></td>
+        </tr>
+        <tr><td>4</td>
+          <td>李翠翠</td>
+          <td class="text-center">女</td>
+          <td>370911198410105648</td>
+          <td>xindehui0538@126.com</td>
+          <td>13562822733</td>
+          <td>销售其他</td>
+          <td>2013-11-03</td>
+          <td>2013-12-03</td>
+          <td>来自大众进口汽车网络外部</td>
+          <td class="text-center">否</td>
+          <td>2014-01-31</td>
+          <td><a href="#">查看</a> | <a href="#">编辑</a> | <a href="javascript:;">删除</a></td>
+        </tr>
+        <tr><td>5</td>
+          <td>李翠翠</td>
+          <td class="text-center">女</td>
+          <td>370911198410105648</td>
+          <td>xindehui0538@126.com</td>
+          <td>13562822733</td>
+          <td>销售其他</td>
+          <td>2013-11-03</td>
+          <td>2013-12-03</td>
+          <td>来自大众进口汽车网络外部</td>
+          <td class="text-center">否</td>
+          <td>2014-01-31</td>
+          <td><a href="#">查看</a> | <a href="#">编辑</a> | <a href="javascript:;">删除</a></td>
+        </tr>
+        <tr><td>6</td>
+          <td>李翠翠</td>
+          <td class="text-center">女</td>
+          <td>370911198410105648</td>
+          <td>xindehui0538@126.com</td>
+          <td>13562822733</td>
+          <td>销售其他</td>
+          <td>2013-11-03</td>
+          <td>2013-12-03</td>
+          <td>来自大众进口汽车网络外部</td>
+          <td class="text-center">否</td>
+          <td>2014-01-31</td>
+          <td><a href="#">查看</a> | <a href="#">编辑</a> | <a href="javascript:;">删除</a></td>
+        </tr>
+        <tr><td>7</td>
+          <td>李翠翠</td>
+          <td class="text-center">女</td>
+          <td>370911198410105648</td>
+          <td>xindehui0538@126.com</td>
+          <td>13562822733</td>
+          <td>销售其他</td>
+          <td>2013-11-03</td>
+          <td>2013-12-03</td>
+          <td>来自大众进口汽车网络外部</td>
+          <td class="text-center">否</td>
+          <td>2014-01-31</td>
+          <td><a href="#">查看</a> | <a href="#">编辑</a> | <a href="javascript:;">删除</a></td>
+        </tr>
+        <tr><td>8</td>
+          <td>李翠翠</td>
+          <td class="text-center">女</td>
+          <td>370911198410105648</td>
+          <td>xindehui0538@126.com</td>
+          <td>13562822733</td>
+          <td>销售其他</td>
+          <td>2013-11-03</td>
+          <td>2013-12-03</td>
+          <td>来自大众进口汽车网络外部</td>
+          <td class="text-center">否</td>
+          <td>2014-01-31</td>
+          <td><a href="#">查看</a> | <a href="#">编辑</a> | <a href="javascript:;">删除</a></td>
+        </tr>
+        <tr><td>9</td>
+          <td>李翠翠</td>
+          <td class="text-center">女</td>
+          <td>370911198410105648</td>
+          <td>xindehui0538@126.com</td>
+          <td>13562822733</td>
+          <td>销售其他</td>
+          <td>2013-11-03</td>
+          <td>2013-12-03</td>
+          <td>来自大众进口汽车网络外部</td>
+          <td class="text-center">否</td>
+          <td>2014-01-31</td>
+          <td><a href="#">查看</a> | <a href="#">编辑</a> | <a href="javascript:;">删除</a></td>
+        </tr>
+        <tr><td>10</td>
+          <td>李翠翠</td>
+          <td class="text-center">女</td>
+          <td>370911198410105648</td>
+          <td>xindehui0538@126.com</td>
+          <td>13562822733</td>
+          <td>销售其他</td>
+          <td>2013-11-03</td>
+          <td>2013-12-03</td>
+          <td>来自大众进口汽车网络外部</td>
+          <td class="text-center">否</td>
+          <td>2014-01-31</td>
+          <td><a href="#">查看</a> | <a href="#">编辑</a> | <a href="javascript:;">删除</a></td>
+        </tr>
+        <tr><td>11</td>
+          <td>李翠翠</td>
+          <td class="text-center">女</td>
+          <td>370911198410105648</td>
+          <td>xindehui0538@126.com</td>
+          <td>13562822733</td>
+          <td>销售其他</td>
+          <td>2013-11-03</td>
+          <td>2013-12-03</td>
+          <td>来自大众进口汽车网络外部</td>
+          <td class="text-center">否</td>
+          <td>2014-01-31</td>
+          <td><a href="#">查看</a> | <a href="#">编辑</a> | <a href="javascript:;">删除</a></td>
+        </tr>
+      </table>
+      </div>
+    </div>
+    <div class="container">
+      <div class="text-center page">
+        <nav>
+          <ul class="pagination pagination-sm">
+            <li class="disabled">
+              <a href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li>
+              <a href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+              
+      </div>
+    </div>
+    <div class="bottom text-center">
+    	Copyright &copy 2017 凯迪拉克|CADILLAC 版权所有
+    </div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-1.11.2.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap.js"></script>
+    
+    <script src="js/icheck.js"></script>
+    <script>
+$(document).ready(function(){
+  $('input').each(function(){
+     if ($(this).is(':checked')){
+		ec=$(this).attr("name");
+		$('#'+ec+' ul').append('<li><label><div class="state icheckbox_minimal-blue checked"></div> <font>' + $(this).attr('placeholder') + '</font></label>');
+		//alert($(this).val()); 
+	}
+  });
+  $('input').iCheck({
+    checkboxClass: 'icheckbox_minimal-blue',
+    radioClass: 'iradio_minimal-blue',
+    increaseArea: '20%' // optional
+  });
+  $('.requir input:checkbox[name=region]').on('ifChecked ', function(event){
+	str=$(this).attr('placeholder');//this.value;
+	checked("region",str);
+  });
+  $('.requir input:checkbox[name=region]').on('ifUnchecked ', function(event){
+	str=$(this).attr('placeholder');
+	uncheckedi("region",str);
+  });
+  $('.requir input:checkbox[name=dealer]').on('ifChecked ', function(event){
+	str=$(this).attr('placeholder');
+	checked("dealer",str);
+  });
+  $('.requir input:checkbox[name=dealer]').on('ifUnchecked ', function(event){
+	str=$(this).attr('placeholder');
+	uncheckedi("dealer",str);
+  });
+  $('.requir input:radio[name=year]').on('ifChecked', function(event){
+	str=$(this).attr('placeholder');
+	$('#year ul').empty();
+	$('#year ul').append('<li><label><div class="state iradio_minimal-blue checked"></div> <font>' + str + '</font></label>');
+  });
+  //$('.requir input:radio[name=year]').on('ifUnchecked', function(event){
+	//str=this.value+'年';
+	//uncheckedi("year",str);
+  //});
+  $('.requir input:checkbox[name=month]').on('ifChecked', function(event){
+	str=$(this).attr('placeholder');
+	checked("month",str);
+  });
+  $('.requir input:checkbox[name=month]').on('ifUnchecked', function(event){
+	str=$(this).attr('placeholder');
+	uncheckedi("month",str);
+  });
+  //$('select').change(function(){
+	//$('#dealer ul').empty();
+	//$("select").find("option:selected").each(function(){
+	//	  var txt = $(this).text();
+	//	  $('#dealer ul').append('<li><label><div class="state icheckbox_minimal-blue checked"></div> <font>' + txt + '</font></label>');
+	//});
+  //});
+});
+function checked(id,str){
+	flag=true;
+    $('#'+id+' ul li').find("font").each(function(){
+		if ($(this).text()==str){
+			flag=false;
+		}
+    });
+	if (flag){
+	  $('#'+id+' ul').append('<li><label><div class="state icheckbox_minimal-blue checked"></div> <font>' + str + '</font></label>');
+	}
+}
+ function uncheckedi(id,str){
+    $('#'+id+' ul li').find("font").each(function(){
+		if ($(this).text()==str){
+		  $(this).parent().remove();
+		}
+    });
+}
+</script>
+    
+  </body>
+</html>
